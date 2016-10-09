@@ -1,5 +1,7 @@
 # reaktor-codecamp-clj
 
+[![Dependencies Status](https://jarkeeper.com/elahti/reaktor-codecamp-clj/status.svg)](https://jarkeeper.com/elahti/reaktor-codecamp-clj)
+
 Reaktor Codecamp Clojure base.
 
 # Prerequisites
