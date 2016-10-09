@@ -31,7 +31,7 @@ You can stop the system by invoking
 
 ## The Beef
 
-Code your logic to the `reaktor-codecamp-2016-ii-clj/on-server-event` function. It will be invoked whenever a server sends a message.
+Code your logic to the `reaktor-codecamp-clj/on-server-event` function. It will be invoked whenever a server sends a message.
 
 The function will receive the JSON payload from server, parsed as Clojure data structure, as an argument. The function must return a similar data structure that will sent back to the server as a response.
 
