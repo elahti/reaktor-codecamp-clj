@@ -1,11 +1,11 @@
-(ns reaktor-codecamp-2016-ii-clj.server
+(ns reaktor-codecamp-clj.server
   (:require [aleph.udp :as udp]
             [byte-streams :as bs]
             [cheshire.core :as json]
             [clojure.core.async :as async]
             [com.stuartsierra.component :as component]
             [environ.core :refer [env]]
-            [reaktor-codecamp-2016-ii-clj.handler :as handler]
+            [reaktor-codecamp-clj.handler :as handler]
             [manifold.stream :as s]
             [taoensso.timbre :refer [debug error info]]))
 

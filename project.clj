@@ -1,6 +1,6 @@
-(defproject reaktor-codecamp-2016-ii-clj "0.1.0-SNAPSHOT"
-  :description "Reaktor Codecamp 2016 II Clojure base"
-  :url "https://github.com/elahti/reaktor-codecamp-2016-ii-clj"
+(defproject reaktor-codecamp-clj "0.1.0-SNAPSHOT"
+  :description "Reaktor Codecamp Clojure base"
+  :url "https://github.com/elahti/reaktor-codecamp-clj"
 
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [aleph "0.4.1"]                            ; TCP / UDP
@@ -17,5 +17,5 @@
                        :source-paths ["src" "dev-src"]}
              :uberjar {:aot :all}}
 
-  :main ^:skip-aot reaktor-codecamp-2016-ii-clj.core
+  :main ^:skip-aot reaktor-codecamp-clj.core
   :target-path "target/%s")

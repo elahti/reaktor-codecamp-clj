@@ -1,6 +1,6 @@
-# reaktor-codecamp-2016-ii-clj
+# reaktor-codecamp-clj
 
-Reaktor Codecamp 2016 II Clojure base.
+Reaktor Codecamp Clojure base.
 
 # Prerequisites
 
@@ -57,5 +57,5 @@ Use this to package your app with all it's dependencies into a single JAR file a
 
 ```bash
 $ lein uberjar
-$ SERVER_PORT=10000 java -jar target/uberjar/reaktor-codecamp-2016-ii-clj-0.1.0-SNAPSHOT-standalone.jar
+$ SERVER_PORT=10000 java -jar target/uberjar/reaktor-codecamp-clj-0.1.0-SNAPSHOT-standalone.jar
 ```

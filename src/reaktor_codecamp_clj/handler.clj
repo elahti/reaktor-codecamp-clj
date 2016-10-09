@@ -1,4 +1,4 @@
-(ns reaktor-codecamp-2016-ii-clj.handler)
+(ns reaktor-codecamp-clj.handler)
 
 (defn on-server-event
   "Handler function that receives the JSON parsed as Clojure data

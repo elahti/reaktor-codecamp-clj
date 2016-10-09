@@ -1,7 +1,7 @@
-(ns reaktor-codecamp-2016-ii-clj.core
+(ns reaktor-codecamp-clj.core
   (:require [com.stuartsierra.component :as component]
-            [reaktor-codecamp-2016-ii-clj.handler :as handler]
-            [reaktor-codecamp-2016-ii-clj.server :as server])
+            [reaktor-codecamp-clj.handler :as handler]
+            [reaktor-codecamp-clj.server :as server])
   (:gen-class))
 
 (defn new-system
