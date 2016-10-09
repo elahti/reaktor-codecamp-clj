@@ -5,7 +5,6 @@
             [clojure.core.async :as async]
             [com.stuartsierra.component :as component]
             [environ.core :refer [env]]
-            [reaktor-codecamp-clj.handler :as handler]
             [manifold.stream :as s]
             [taoensso.timbre :refer [debug error info]]))
 
