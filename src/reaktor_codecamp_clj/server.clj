@@ -34,8 +34,7 @@
     (if-not (some? input)
       (throw (Exception. "Failed to read value from server stream"))
       (when-not @stop?
-        (let [{:keys [port host message]} (-> @input
-                                              (update :message byte-array->data))]
+        (let [{:keys [port host message]} (update @input :message byte-array->data)]
           (when (some? message)
             (debug (str "Received from " host ":" port ": " message))
             (let [resp (server-event-handler message)]
