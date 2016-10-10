@@ -6,7 +6,7 @@ Reaktor Codecamp Clojure base.
 
 # Prerequisites
 
-Download and install both JVM 1.8 and [Leiningen](http://leiningen.org/).
+Download and install both JDK 1.8 and [Leiningen](http://leiningen.org/).
 
 # Development
 
