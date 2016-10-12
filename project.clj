@@ -11,7 +11,9 @@
                  [com.taoensso/timbre "4.7.4"]]             ; logging
 
   :profiles {:dev     {:dependencies [[reloaded.repl "0.2.3"]] ; "reloaded" development workflow
-                       :env          {:server-port "10000"}
+                       :env          {:server-port "10000"
+                                      :remote-host "127.0.0.1"
+                                      :remote-port "33333"}
                        :repl-options {:init-ns user}
                        :plugins      [[lein-environ "1.1.0"]]
                        :source-paths ["src" "dev-src"]}

@@ -7,7 +7,7 @@
 (defn new-system
   []
   (component/system-map
-    :server-event-handler handler/on-server-event
+    :server-event-handler (handler/new-event-handler)
 
     :server (component/using
               (server/new-server)

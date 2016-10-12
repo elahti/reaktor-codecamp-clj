@@ -50,7 +50,7 @@ When running the system either from command line or from a Docker container, jus
 You generally shouldn't need to do this since you can run the app from REPL. But just in case you'd like to do so:
 
 ```bash
-$ SERVER_PORT=10000 lein run
+$ SERVER_PORT=10000 REMOTE_HOST=127.0.0.1 REMOTE_PORT=33333 lein run
 ```
 
 # Create JAR File And Run The Application
@@ -59,5 +59,5 @@ Use this to package your app with all it's dependencies into a single JAR file a
 
 ```bash
 $ lein uberjar
-$ SERVER_PORT=10000 java -jar target/uberjar/reaktor-codecamp-clj-0.1.0-SNAPSHOT-standalone.jar
+$ SERVER_PORT=10000 REMOTE_HOST=127.0.0.1 REMOTE_PORT=33333 java -jar target/uberjar/reaktor-codecamp-clj-0.1.0-SNAPSHOT-standalone.jar
 ```
