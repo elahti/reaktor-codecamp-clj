@@ -45,6 +45,12 @@ All values set to `project.clj` must be lower-cased and snake-cased as opposed t
 
 When running the system either from command line or from a Docker container, just set all the configurations as environment variables. As opposed to `project.clj` based configuration, actual environment variables must be both upper-cased and snake-cased as you'd normally do.
 
+The server requires following environment variables:
+
+* `SERVER_PORT` - the port that the local server listens to.
+* `REMOTE_HOST` - the remote server's hostname.
+* `REMOTE_PORT` - the remote server's port.
+
 # Run The Application From Command Line
 
 You generally shouldn't need to do this since you can run the app from REPL. But just in case you'd like to do so:
